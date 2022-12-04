@@ -1,0 +1,80 @@
+*{
+    user-select: none;
+}
+.bg-image{
+   
+    background-image: url('my.webp');
+    background-size: cover;
+    background-position: center;
+    height: 92vh;
+    width: 100%;
+   
+}
+.nav-item a{
+   color: white !important;
+}
+.bg-image p{
+    text-align: center;
+    position: relative;
+    top: 40%;
+    color: white; 
+    font-size: 50px;   
+}
+.bg-image p span{
+    color: yellow;
+}
+
+/* .....Pricing Section..... */
+
+#pricing{
+    padding-top: 5%;
+    
+}
+.card{
+    margin-top:10%;
+    transition: .3s;   
+    
+}
+.card:hover{
+    box-shadow: 8px 8px 15px black;
+    transition: .3s;
+}
+
+/* ...contact... */
+
+#contact{
+    margin-top: 5%;
+}
+#contact h1{
+    margin-bottom:5% ;
+}
+.front{
+    position: relative;
+    text-align: center;
+    margin-top: 40%;
+    height: 30vh;
+    width: 100%;    
+}
+
+/* ...About... */
+
+.about{
+   padding: 30px 0px;
+   margin: 50px 0px;
+}
+
+.about h1 p{
+    font-size: 20px;
+}
+.card-header img{
+    width: 220px !important;
+    height: 220px !important;
+}
+
+/* ...footer... */
+
+.container-fluid{
+    padding: 100px 0px;
+   margin-top: 60px;
+}
+
